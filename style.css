@@ -1,0 +1,211 @@
+.body{
+    font-family: Bebas Neue;
+}
+
+/************heading section**********/
+.logo-img{
+    height: 50px;
+    width: 50px;
+}
+.heading-section span{
+    font-weight: bold;
+    font-size:xx-large;
+}
+.headline1{
+    color: #FABE4C;
+}
+.headline1 span{
+    font-weight: bold;
+    font-size: 80px;
+}
+.headline2{
+    color: #363958;
+}
+.head-image img{
+    width: 360px;
+}
+.header-button{
+    background-color: #A4BC46;
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+    color: white;
+}
+/****************************/
+
+
+/**********card section*******/
+.card-item{
+    border-style: none;
+}
+.card-image{
+    height: 300px;
+    width: 260px;
+ 
+}
+.price{
+    font-weight: bold;
+}
+.image-category img{
+   width: 90px;
+   height: 90px;
+}
+
+
+/***********************************************************************/
+.divide{
+    width: 80%;
+    margin: 100px auto;
+}
+.line{
+    width: 100%;
+    background: #363958;
+    height: 0px;
+}
+.shape1,.shape2,.shape3{
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+.shape1{
+    margin-left: 0%;
+    margin-top: -10px;
+}
+.shape2{
+    margin-left: 49%;
+    margin-top: -20px;
+}
+.shape3{
+    margin-left: 100%;
+    margin-top: -20px;
+}
+.gray{
+    background: #363958;
+}
+.gray-border{
+    border: 1px solid #363958;
+}
+
+
+/***********************************************************************/
+
+@media (max-width:668px) {
+    .side-content{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        width: 100%;
+        
+    }
+}
+@media (max-width:992px) {
+    .side-content{
+        grid-template-columns: repeat(1, 1fr);
+        float: left;
+        width: 100%;
+        align-items: center;
+        margin: auto;
+        text-align: center;  
+        
+    }
+}
+  
+
+.category{
+    padding: 1%;
+}
+.cate-item{
+    margin-top: 5px;
+}
+/**************/
+@media (max-width:668px) {
+    .category-one{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+}
+@media (max-width:992px) {
+    .category-one{
+        grid-template-columns: repeat(3, 1fr);
+        /**width: 100%;*/
+    }
+}
+@media (max-width:1312px) {
+    .category-one{
+        grid-template-columns: repeat(2, 1fr);
+        /*width: 100%;*/
+    }
+
+    .product-detail{
+        justify-content: center;
+        margin-left: 20%;
+    }
+}
+
+/*************card responsive***************/
+@media (min-width:992px) {
+    .shopping-card{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        width: 100%;
+       
+    }
+
+}
+
+
+
+/**************/
+
+.cate-item a{
+    color: white;
+    background: #363958;
+    display: block;
+    border-radius: 5px;
+    padding: 2% 2%;
+    text-decoration: none;
+    
+}
+.image-detail img{
+    width: 80%;
+    height: 80%;
+}
+.select-size{
+    padding: 2px;
+}
+.submit-button{
+    color: #fff;
+    background: #363958;
+    outline: none;
+    border-radius: 3px;
+    border-style: none;
+    padding: 3px;
+}
+.size-title{
+    color: #FABE4C;
+}
+.image-title{
+    color: #FABE4C;
+    font-weight: bold;
+}
+
+/***********footer**********/
+
+.footer{
+    background-color: #363958;
+    height: 240px;
+}
+.footer-head{
+    color: white;
+}
+
+.icon{
+    height: 50px;
+}
+.communication-way a{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.card-body img{
+    width: 60px;
+}
